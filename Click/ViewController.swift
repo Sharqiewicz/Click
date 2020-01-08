@@ -17,8 +17,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ButtonClick: UIButton!
     @IBAction func ButtonClickAction(_ sender: UIButton) {
-        ButtonClick.setTitle("Thanks!", for: .normal)
-    }
+        ButtonClick.setTitle("Dziękuję!", for: .normal)
+    } 
     
 }
 
