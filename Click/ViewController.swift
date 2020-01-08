@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var ButtonClick: UIButton!
+    @IBAction func ButtonClickAction(_ sender: UIButton) {
+        ButtonClick.setTitle("Thanks!", for: .normal)
+    }
+    
 }
 
