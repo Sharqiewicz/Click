@@ -14,10 +14,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    var toggle = false;
 
     @IBOutlet weak var ButtonClick: UIButton!
     @IBAction func ButtonClickAction(_ sender: UIButton) {
-        ButtonClick.setTitle("Dziękuję!", for: .normal)
+        if(!toggle){
+            ButtonClick.setTitle("Dziękuję!", for: .normal)
+            toggle = true;
+        }
+        else{
+            ButtonClick.setTitle("Kliknij na mnie, proszę :)", for: .normal)
+            toggle = false;
+        }
     } 
     
 }
