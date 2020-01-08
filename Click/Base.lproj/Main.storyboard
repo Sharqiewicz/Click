@@ -22,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="27"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Kliknij na mnie, proszę :)">
-                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="ButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6QW-e0-hsL"/>
