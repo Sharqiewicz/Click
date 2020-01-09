@@ -28,13 +28,6 @@
                                     <action selector="ButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6QW-e0-hsL"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AhJ-9g-h6x">
-                                <rect key="frame" x="29" y="20" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="Switcher:" destination="BYZ-38-t0r" eventType="valueChanged" id="vJQ-m4-Lm6"/>
-                                </connections>
-                            </switch>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -55,7 +48,7 @@
                     </connections>
                 </rotationGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-2431" y="-63"/>
+            <point key="canvasLocation" x="-1972" y="65"/>
         </scene>
     </scenes>
 </document>
